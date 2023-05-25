@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/securereact/static/css/main.2e6d0f8b.css",
+    "main.css": "/securereact/static/css/main.12f87ff6.css",
     "main.js": "/securereact/static/js/main.ea11a6ef.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/securereact/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/securereact/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -18,7 +18,7 @@
     "index.html": "/securereact/index.html"
   },
   "entrypoints": [
-    "static/css/main.2e6d0f8b.css",
+    "static/css/main.12f87ff6.css",
     "static/js/main.ea11a6ef.js"
   ]
 }
