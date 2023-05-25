@@ -1,0 +1,59 @@
+{
+  "homepage": "https://wawazer.github.io/securereact",
+  "name": "Secure",
+  "version": "1",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "classnames": "2.3.1",
+    "headroom.js": "0.12.0",
+    "moment": "2.29.4",
+    "nouislider": "14.1.1",
+    "react": ">=16.0.0",
+    "react-data-table-component": "^7.5.3",
+    "react-datetime": "3.1.1",
+    "react-dom": ">=16.0.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "5.0.1",
+    "reactstrap": "8.4.1",
+    "sass": "1.53.0",
+    "styled-components": "^6.0.0-rc.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/googlemaps": "3.39.2",
+    "@types/markerclustererplus": "2.1.33",
+    "@types/react": "18.0.17",
+    "eslint-plugin-flowtype": "8.0.3",
+    "gh-pages": "^5.0.0",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9",
+    "jquery": "3.6.0",
+    "typescript": "4.7.4"
+  }
+}
